@@ -42,5 +42,9 @@ app.openapi(basicRoute, (c) => {
   });
 });
 
+
+
 // Export handler for Vercel Edge Functions
 export const GET = handle(app);
+
+
